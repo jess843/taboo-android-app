@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         information.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (information_text_showing) {
+                if (information_text_showing){
                     infoTextView.startAnimation(animFadeout);
                     infoTextView.setVisibility(View.INVISIBLE);
                     information_text_showing = false;
